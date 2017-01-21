@@ -316,7 +316,7 @@ int main(int argc, char **argv) {
   //
   // }
   // c.display_partition();
-  // cerr << "Number of communities after mod max: " << (c.qual)->g.nb_nodes << endl;
-  // cerr << "Final modularity: " << new_qual << endl;
+  cerr << "Number of communities after mod max: " << (c.qual)->g.nb_nodes << endl;
+  cerr << "Final modularity: " << new_qual << endl;
   delete q;
 }
